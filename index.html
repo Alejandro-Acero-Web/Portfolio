@@ -14,10 +14,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="bod">
     
     <nav class="navbar navbar-expand-lg text-uppercase fixed-top p-4" id="mainNav">
-        <a class="navbar-brand" id="mainlink" href="#page-top">Alejandro Acero</a>
+        <a class="navbar-brand mainlink" href="#mainlink">Alejandro Acero</a>
         <button class="navbar-toggler text-uppercase font-weight-bold bg-light text-dark rounded" type="button"
             data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -26,59 +26,169 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto" id="references">
-                <li class="nav-item mx-0 mx-lg-1"><a class="ban nav-link py-3 px-0 px-lg-3 rounded"
-                        href="#portfolio">Skills</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded ban" href="#about">About</a>
                 </li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="ban nav-link py-3 px-0 px-lg-3 rounded"
+                        href="#skills">Skills</a></li>
+                
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded ban"
-                        href="#contact">Contact</a></li>
+                        href="#projectss">Projects</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded ban"
+                        href="#conactme">Contact</a></li>
             </ul>
         </div>
 
         
     </nav>
-    <header class="masthead hc text-white text-center p-5">
-        <div class="container d-flex align-items-center flex-column">
+    <header class="masthead hc text-white text-center p-5" id="mainlink">
+        <div class="container d-flex align-items-center flex-column" id="first">
             <!--Replace with image of you-->
             <img class="masthead-avatar img-fluid mb-2 me" src="assets/Me-removebg-preview.png" alt="..." />
-            <h1 class="masthead-heading text-uppercase mb-0">Hello, I'm Alejandro</h1>
+            <h1 class="masthead-heading text-uppercase mb-0" id="about">Hello, I'm Alejandro</h1>
             <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">And I'm a web developer! Welcome to my portfolio.</p>
+            <p class="masthead-subheading font-weight-light mb-0">And I'm a software developer! Welcome to my portfolio.</p>
         </div>
     </header>
-    <section class="page-section portfolio" id="skils">
+    <section class="page-section about text-white" id="abb">
+        <div class = "container">
+            <h2 class="page-section-heading text-center text-uppercase">About me</h2>
+            <hr id="skills">
+            <p class="masthead-subheading font-weight-light mb-0 lead text-center" id="ab-text"> I am a 21 year old software engineer that has knowledge of both backend and frontend development. I'm a very good problem solver, as well as an exceedingly fast learner. I have skills in Javascript, Java, and Python, as well as in many of the frameworks and technologies adjacent to these. I love undertaking projects that are only possible through teamwork, as the feeling of success is, to me, at its greatest when it's shared with other people. On that note, I'm good at working with groups, specially thanks to my fluent use of both English and Spanish.</p>
+        </div>
+    </section>
+    <section class="page-section portfolio" id="skill">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary">My skills</h2>
+            <h2 class="page-section-heading text-center text-uppercase">My skills</h2>
             <hr>
             <!-- Portfolio Grid Items-->
-            <div class="row justify-content-center">
+            <div class="row justify-content-center" id="ski">
                 <!-- Portfolio Item 1-->
-                <div class="col-md-6 col-lg-4 mb-5">                    
+                <div class="col-4 col-lg-1 mb-5 img" id="js">                    
                         <img class="img-fluid" src="assets/javascript.png" alt="..." />
                 </div>
                 <!-- Portfolio Item 2-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                        <img class="img-fluid" src="assets/css.png" alt="..." />
+                <div class="col-4 col-lg-1 mb-5 img">
+                        <img class="img-fluid" id="css" src="assets/css.png" alt="..." />
                 </div>
                 <!-- Portfolio Item 3-->
-                <div class="col-md-6 col-lg-4 mb-5">
+                <div class="col-4 col-lg-1 mb-5 img">
                         <img class="img-fluid" src="assets/HTML.png" alt="..." />
                 </div>
                 <!-- Portfolio Item 4-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                        <img class="img-fluid" src="assets/Node.png" alt="..." />
+                <div class="col-4 col-lg-1 mb-5 img">
+                        <img class="img-fluid" id="node"  src="assets/Node.png" alt="..." />
                 </div>
                 <!-- Portfolio Item 5-->
-                <div class="col-md-6 col-lg-4 mb-5">
+                <div class="col-4 col-lg-1 mb-5 img">
                     <img class="img-fluid" src="assets/python.png" alt="..." />
                 </div>
                 <!-- Portfolio Item 6-->
-                <div class="col-md-6 col-lg-4 mb-5 ">
+                <div class="col-4 col-lg-1 mb-5 img">
+                    <img class="img-fluid" src="assets/github.png" alt="..." />
+                </div>
+                <div class="col-4 col-lg-1 mb-5 img">
+                    <img class="img-fluid" src="assets/express.png" alt="..." />
+                </div>
+                <div class="col-4 col-lg-1 mb-5 img">
+                    <img class="img-fluid" src="assets/bootstrap.png" alt="..." />
+                </div>
+                <div class="col-4 col-lg-1 mb-5 img">
+                    <img class="img-fluid" src="assets/Axios.png" alt="..." />
+                </div>
+                <div class="col-4 col-lg-1 mb-5 img">
+                    <img class="img-fluid" src="assets/java.png" alt="..." />
+                </div>
+                <div class="col-4 col-lg-1 mb-5 img">
+                    <img class="img-fluid" src="assets/Spring.png" alt="..." />
+                </div>
+                <div class="col-4 col-lg-1 mb-5 img">
+                    <img class="img-fluid" src="assets/hibernate.png" alt="..." />
+                </div>
+                <div class="col-4 col-lg-1 mb-5 img">
+                    <img class="img-fluid" src="assets/maven.png" alt="..." />
+                </div>
+                <div class="col-4 col-lg-1 mb-5 img">
+                    <img class="img-fluid" src="assets/api.png" alt="..." />
+                </div>
+                <div class="col-4 col-lg-1 mb-5 img">
+                    <img class="img-fluid" src="assets/heroku.png" alt="..." />
+                </div>
+                <div class="col-4 col-lg-1 mb-5 img">
+                    <img class="img-fluid" src="assets/postgress.png" alt="..." />
+                </div>
+                <div class="col-4 col-lg-1 mb-5 img" id="projectss">
                     <img class="img-fluid" src="assets/sql.png" alt="..." />
                 </div>
             </div>
         </div>
+    </section>
+    <section class="page-section about text-white" id="projects">
+        <div class = "container">
+            <h2 class="page-section-heading text-center text-uppercase text-white">Projects</h2>
+            <hr>
+            <section class="" id="pro1">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center">
+                        <a href="https://tranquil-space.herokuapp.com/" class="col-lg-6"><img class="img-fluid rounded mb-5 mb-lg-0" src="assets/tranquil.PNG" alt="..." /></a>
+                        <div class="col-lg-6">
+                            <h2 class="fw-bolder">Tranquil Space</h2>
+                            <p class="lead fw-normal text-white mb-0">This is a website designed to provide calming, positive content. Enjoy hundreds of positive news articles, look at cute puppy pictures, or play cool music accompanied by their own custom audio visualizer. Additionally, the website features an animated background which reacts to mouse movement and position.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+    </section>
+    <section class="page-section contact text-white" id="conactme">
+        <div class = "container">
+            <h2 class="page-section-heading text-center text-uppercase text-white">Contact me</h2>
+            <hr>
+            <section class="" id="cont">
+                <div class="container px-5">
+                    <div class="text-center">
+                        <h2 class="fw-bolder">All the ways to get in touch</h2>
+                        <p class="lead fw-normal text-white mb-5">Feel free to use one or all of these (click to go to link)</p>
+                    </div>
+                    <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
+                        <div class="col mb-5 mb-5 mb-xl-0">
+                            <div class="text-center">
+                                <a href="https://www.linkedin.com/in/alejandro-acero-software/" target="_blank">
+                                    <img class="img-fluid rounded-circle mb-4 px-4" src="assets/linkedin.png" alt="..." />
+                                </a>
+                                
+                                <h5 class="fw-bolder">LinkedIn</h5>
+                                
+                            </div>
+                        </div>
+                        <div class="col mb-5 mb-5 mb-xl-0">
+                            <div class="text-center">
+                                <a href="mailto:alejandroacero2012@gmail.com" target="_blank">
+                                    <img class="img-fluid rounded-circle mb-4 px-4" src="assets/gmail.png" alt="..." />
+                                </a>
+                                
+                                <h5 class="fw-bolder" id="mail">Gmail</p>
+                                <div class="fst-italic text-white" id="mail2">alejandroacero2012@gmail.com</div>
+                            </div>
+                        </div>
+                        <div class="col mb-5 mb-5 mb-sm-0">
+                            <div class="text-center">
+                                <a href="https://github.com/Halcyon2064" target="_blank">
+                                    <img class="img-fluid rounded-circle mb-4 px-4" src="assets/githubb.png" alt="..." />
+                                </a>
+                                
+                                <h5 class="fw-bolder">Github</h5>
+                                
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
     </section>
 
 
@@ -90,6 +200,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
         integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
+<a ></a>

@@ -1,4 +1,4 @@
-#mainlink{
+.mainlink{
     font-size: 25px;
     color: white;
     
@@ -20,4 +20,65 @@
 }
 .me{
     
+}
+#css{
+    width: 60%;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+     
+
+
+
+#first{
+    margin-top: 50px;
+}
+#ab-text{
+    padding: 6%;
+}
+.wrapper{
+    margin-bottom: 6%;
+}
+#ski{
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+#pro1{
+    padding: 6%;
+}
+#cont{
+    padding: 6%;
+}
+#mail{
+    text-align: center;
+}
+#mail2{
+    font-size: 12px;
+}
+#bod{
+   
+}
+#abb{
+    
+    background-color: #1D8A99;
+}
+#skill{
+    background-color: #ebf5ee;
+}
+#projects{
+    background-color: #568EA3;
+
+}
+#conactme{
+    background-color: #638475;
+}
+@media only screen and (max-width:840px){
+
+    #pro1{
+        text-align: center;
+    }
 }
